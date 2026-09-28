@@ -1,0 +1,23 @@
+{
+  "unpublishedCollection": {
+    "name": "AdminConfigApi",
+    "pageId": "Admin Config",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "base",
+        "value": "\"/api/v1/safal/webhook/\""
+      },
+      {
+        "name": "paths",
+        "value": "{\n  masters: \"wf_fin_cfg_get_pr_masters\",\n  company: \"wf_fin_cfg_save_company_unit\",\n  department: \"wf_fin_cfg_save_department\",\n  category: \"wf_fin_cfg_save_category\",\n  authority: \"wf_fin_cfg_save_approval_authority\",\n  stage: \"wf_fin_cfg_save_notification_stage\",\n  kycGet: \"wf_fin_cfg_get_kyc_config\",\n  kycSave: \"wf_fin_cfg_save_variant_requirements\",\n  kycLabel: \"wf_fin_cfg_update_kyc_label\"\n}"
+      }
+    ]
+  },
+  "id": "Admin Config_AdminConfigApi",
+  "deleted": false,
+  "gitSyncId": "6aa389882795dc48d68c9292_a5ff963dfe7e29a4f60e613b"
+}

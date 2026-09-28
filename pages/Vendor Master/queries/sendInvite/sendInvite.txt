@@ -79,7 +79,7 @@
                     <table role="presentation" cellpadding="0" cellspacing="0">
                       <tr>
                         <td align="center" style="border-radius:8px; background-color:#0c0c0c; box-shadow:0 4px 14px rgba(0,0,0,0.18);">
-                          <a href="https://demo1.rapiddata.io/app/vendor-kyc/kyc-pending-6aa389f92795dc48d68c92cb" target="_blank" style="display:inline-block; padding:16px 48px; font-size:15px; font-weight:bold; color:#d4af37; text-decoration:none; letter-spacing:1px; text-transform:uppercase;">
+                          <a href="{{appsmith.URL.protocol + '//' + appsmith.URL.host}}/app/vendor-kyc/kyc-pending-6aa389f92795dc48d68c92cb" target="_blank" style="display:inline-block; padding:16px 48px; font-size:15px; font-weight:bold; color:#d4af37; text-decoration:none; letter-spacing:1px; text-transform:uppercase;">
                             Complete Your KYC &rarr;
                           </a>
                         </td>
