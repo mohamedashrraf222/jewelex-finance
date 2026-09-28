@@ -270,8 +270,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                " vendorsPager.pageSize ",
-                " ((vendorsPager.page || 1) - 1) * vendorsPager.pageSize "
+                " ((vendorsPager.page || 1) - 1) * vendorsPager.pageSize ",
+                " vendorsPager.pageSize "
               ],
               "timeoutInMillisecond": 10000
             }

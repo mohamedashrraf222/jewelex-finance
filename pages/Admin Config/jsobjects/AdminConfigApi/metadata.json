@@ -13,7 +13,7 @@
       },
       {
         "name": "paths",
-        "value": "{\n\t\tmasters: \"wf_fin_cfg_get_pr_masters\",\n\t\tcompany: \"wf_fin_cfg_save_company_unit\",\n\t\tdepartment: \"wf_fin_cfg_save_department\",\n\t\tcategory: \"wf_fin_cfg_save_category\",\n\t\tauthority: \"wf_fin_cfg_save_approval_authority\",\n\t\tstage: \"wf_fin_cfg_save_notification_stage\",\n\t\tkycGet: \"wf_fin_cfg_get_kyc_config\",\n\t\tkycSave: \"wf_fin_cfg_save_variant_requirements\",\n\t\tkycLabel: \"wf_fin_cfg_update_kyc_label\"\n\t}"
+        "value": "{\n  masters: \"wf_fin_cfg_get_pr_masters\",\n  company: \"wf_fin_cfg_save_company_unit\",\n  department: \"wf_fin_cfg_save_department\",\n  category: \"wf_fin_cfg_save_category\",\n  authority: \"wf_fin_cfg_save_approval_authority\",\n  stage: \"wf_fin_cfg_save_notification_stage\",\n  kycGet: \"wf_fin_cfg_get_kyc_config\",\n  kycSave: \"wf_fin_cfg_save_variant_requirements\",\n  kycLabel: \"wf_fin_cfg_update_kyc_label\"\n}"
       }
     ]
   },
