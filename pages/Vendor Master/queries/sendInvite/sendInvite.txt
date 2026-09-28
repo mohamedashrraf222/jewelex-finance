@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+<title>Vendor KYC Invitation</title>
+<style>
+  /* Lock colors so Gmail/Apple Mail/Outlook dark mode doesn't auto-invert and break contrast */
+  :root { color-scheme: light dark; supported-color-schemes: light dark; }
+  @media (prefers-color-scheme: dark) {
+    .email-bg { background-color:#ffffff !important; }
+    .email-card { background-color:#ffffff !important; }
+    .body-text { color:#4a4a4a !important; }
+    .heading-text { color:#1a1a1a !important; }
+    .ribbon-bg { background-color:#faf7ee !important; }
+    .ribbon-text { color:#8a7328 !important; }
+    .footer-text { color:#8a8a8a !important; }
+    .footer-subtext { color:#666666 !important; }
+  }
+  a[x-apple-data-detectors] { color:inherit !important; text-decoration:none !important; }
+</style>
+</head>
+<body class="email-bg" style="margin:0; padding:0; background-color:#ffffff; font-family:'Segoe UI', Arial, sans-serif;">
+
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="email-bg" style="background-color:#ffffff;">
+    <tr>
+      <td align="center" style="padding:16px;">
+
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="email-card" style="background-color:#ffffff; max-width:100%; border-radius:16px; overflow:hidden; box-shadow:0 6px 24px rgba(0,0,0,0.08);">
+
+          <!-- Header -->
+          <tr>
+            <td style="background-color:#0c0c0c; padding:20px 40px; text-align:center;">
+              <div style="font-family:Georgia, 'Times New Roman', serif; font-size:9px; letter-spacing:4px; color:#d4af37; margin-bottom:6px; text-transform:uppercase;">
+                &#10022;&nbsp;&nbsp;Est. Excellence in Fine Jewelry&nbsp;&nbsp;&#10022;
+              </div>
+              <div style="font-family:Georgia, 'Times New Roman', serif; font-size:20px; letter-spacing:3px; color:#ffffff; font-weight:bold;">
+                JEWELEX <span style="color:#d4af37;">GROUP</span>
+              </div>
+            </td>
+          </tr>
+
+          <!-- Gold accent line -->
+          <tr>
+            <td style="height:3px; background:linear-gradient(90deg, #0c0c0c, #d4af37, #f5e7a3, #d4af37, #0c0c0c);"></td>
+          </tr>
+
+          <!-- Ribbon subtitle -->
+          <tr>
+            <td class="ribbon-bg" style="background-color:#faf7ee; padding:14px 40px; text-align:center; border-bottom:1px solid #ece5d3;">
+              <span class="ribbon-text" style="font-size:13px; letter-spacing:2px; color:#8a7328; text-transform:uppercase; font-weight:600;">
+                Vendor KYC &amp; Onboarding
+              </span>
+            </td>
+          </tr>
+
+          <!-- Body -->
+          <tr>
+            <td style="padding:44px 44px 12px 44px;">
+              <p class="heading-text" style="font-size:17px; color:#1a1a1a; margin:0 0 20px 0; font-weight:600;">
+                Dear {{vendorMasterWidget.model.newInvite.vendorName}} ,
+              </p>
+              <p class="body-text" style="font-size:15px; line-height:1.75; color:#4a4a4a; margin:0 0 20px 0;">
+                We're pleased to welcome you into the <strong>Jewelex Group</strong> vendor network. As part of our
+                onboarding process, we kindly request that you complete a short, secure KYC (Know Your Customer)
+                verification.
+              </p>
+              <p class="body-text" style="font-size:15px; line-height:1.75; color:#4a4a4a; margin:0 0 32px 0;">
+                This helps us maintain the highest standards of trust and compliance across our partner ecosystem,
+                and ensures a smooth path to purchase orders and payments going forward.
+              </p>
+
+              <!-- CTA Button -->
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td align="center" style="padding-bottom:36px;">
+                    <table role="presentation" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td align="center" style="border-radius:8px; background-color:#0c0c0c; box-shadow:0 4px 14px rgba(0,0,0,0.18);">
+                          <a href="https://demo1.rapiddata.io/app/vendor-kyc/kyc-pending-6aa389f92795dc48d68c92cb" target="_blank" style="display:inline-block; padding:16px 48px; font-size:15px; font-weight:bold; color:#d4af37; text-decoration:none; letter-spacing:1px; text-transform:uppercase;">
+                            Complete Your KYC &rarr;
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-top:1px solid #f0ece0; padding-top:0;">
+                <tr>
+                  <td style="padding-top:28px;">
+                    <p class="body-text" style="font-size:14px; line-height:1.7; color:#555555; margin:0;">
+                      Should you have any questions or need assistance at any step, our vendor relations team is happy
+                      to help at
+                      <a href="mailto:vendors@jewelexgroup.com" style="color:#8a7328; text-decoration:none; font-weight:600;">vendors@jewelexgroup.com</a>.
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Signature -->
+          <tr>
+            <td style="padding:8px 44px 40px 44px;">
+              <p class="heading-text" style="font-size:14px; color:#1a1a1a; margin:0; line-height:1.6;">
+                Warm regards,<br>
+                <strong>Vendor Relations Team</strong><br>
+                <span style="color:#8a7328;">Jewelex Group</span>
+              </p>
+            </td>
+          </tr>
+
+          <!-- Gold accent line -->
+          <tr>
+            <td style="height:3px; background:linear-gradient(90deg, #0c0c0c, #d4af37, #f5e7a3, #d4af37, #0c0c0c);"></td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td style="background-color:#0c0c0c; padding:26px 40px; text-align:center;">
+              <p class="footer-text" style="font-size:11px; color:#8a8a8a; margin:0 0 6px 0; letter-spacing:0.5px;">
+                &copy; 2026 Jewelex Group. All rights reserved.
+              </p>
+              <p class="footer-subtext" style="font-size:10px; color:#666666; margin:0;">
+                This is an automated message regarding your vendor onboarding. Please do not reply directly to this email.
+              </p>
+            </td>
+          </tr>
+
+        </table>
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>

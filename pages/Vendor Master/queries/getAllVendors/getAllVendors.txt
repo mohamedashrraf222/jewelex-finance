@@ -1,0 +1,7 @@
+{
+  "find": "kyc_cases",
+  "sort": { created_at: -1 },
+  "skip": {{ ((vendorsPager.page || 1) - 1) * vendorsPager.pageSize }},
+  "limit": {{ vendorsPager.pageSize }},
+  "batchSize": {{ vendorsPager.pageSize }}
+}

@@ -1,0 +1,23 @@
+{
+  "unpublishedCollection": {
+    "name": "vendorsPager",
+    "pageId": "Vendor Master",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "page",
+        "value": "1"
+      },
+      {
+        "name": "pageSize",
+        "value": "10"
+      }
+    ]
+  },
+  "id": "Vendor Master_vendorsPager",
+  "deleted": false,
+  "gitSyncId": "6aa389882795dc48d68c9292_6aa828c72909910e6302e984"
+}

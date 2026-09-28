@@ -1,0 +1,8 @@
+{
+  "vendor_working_name": "{{ vendorMasterWidget.model.newInvite.vendorName }}",
+  "vendor_contact_email": "{{ vendorMasterWidget.model.newInvite.vendorEmail }}",
+  "company_name": "{{ vendorMasterWidget.model.newInvite.company_name }}",
+  "party_type": "{{ vendorMasterWidget.model.newInvite.party_type }}",
+  "category": "{{ vendorMasterWidget.model.newInvite.category }}",
+  "service_supplier": {{ vendorMasterWidget.model.newInvite.service_supplier }}
+}

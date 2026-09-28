@@ -1,0 +1,33 @@
+{
+  "isSecure": false,
+  "pages": [
+    {
+      "id": "Vendor Master View",
+      "isDefault": false
+    },
+    {
+      "id": "Vendor Master",
+      "isDefault": true
+    },
+    {
+      "id": "Admin Config",
+      "isDefault": false
+    },
+    {
+      "id": "User Management",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#E3DEFF",
+  "icon": "bitcoin",
+  "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "isManualUpdate": false,
+  "deleted": false
+}
