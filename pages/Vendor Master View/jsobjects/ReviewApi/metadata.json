@@ -1,0 +1,14 @@
+{
+  "unpublishedCollection": {
+    "name": "ReviewApi",
+    "pageId": "Vendor Master View",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": []
+  },
+  "id": "Vendor Master View_ReviewApi",
+  "deleted": false,
+  "gitSyncId": "6aa389882795dc48d68c9292_a23cc20ba370592182435c9f"
+}
