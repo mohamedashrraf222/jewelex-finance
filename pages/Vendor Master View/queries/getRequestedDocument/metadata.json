@@ -19,10 +19,10 @@
       "selfReferencingDataPaths": [],
       "formData": {
         "aggregate": {
-          "limit": {
+          "arrayPipelines": {
             "data": ""
           },
-          "arrayPipelines": {
+          "limit": {
             "data": ""
           }
         },
@@ -49,28 +49,28 @@
           }
         },
         "distinct": {
-          "query": {
+          "key": {
             "data": ""
           },
-          "key": {
+          "query": {
             "data": ""
           }
         },
         "find": {
-          "skip": {
-            "data": ""
-          },
-          "query": {
-            "data": "{_id:\"{{Custom1.model.requestedDocument.document_id}}\"}"
-          },
-          "sort": {
-            "data": ""
-          },
           "limit": {
             "data": "1"
           },
           "projection": {
             "data": "{\n  object_key:1,\n  original_filename:1,\n}"
+          },
+          "query": {
+            "data": "{_id:\"{{Custom1.model.requestedDocument.document_id}}\"}"
+          },
+          "skip": {
+            "data": ""
+          },
+          "sort": {
+            "data": ""
           }
         },
         "insert": {
@@ -118,8 +118,7 @@
     "agentAllowInput": false,
     "agentDescription": "Execute the getRequestedDocument action to query the database",
     "userSetOnLoad": true,
-    "confirmBeforeExecute": false,
-    "datasourceUpdatedAt": "2026-09-20T10:10:18Z"
+    "confirmBeforeExecute": false
   },
   "id": "Vendor Master View_getRequestedDocument",
   "deleted": false,

@@ -19,11 +19,11 @@
       "selfReferencingDataPaths": [],
       "formData": {
         "aggregate": {
-          "limit": {
-            "data": ""
-          },
           "arrayPipelines": {
             "data": "[{ \"$group\": { \"_id\": \"$status\", \"count\": { \"$sum\": 1 } } }]"
+          },
+          "limit": {
+            "data": ""
           }
         },
         "collection": {
@@ -46,14 +46,20 @@
           }
         },
         "distinct": {
-          "query": {
+          "key": {
             "data": ""
           },
-          "key": {
+          "query": {
             "data": ""
           }
         },
         "find": {
+          "limit": {
+            "data": ""
+          },
+          "projection": {
+            "data": ""
+          },
           "query": {
             "data": "[{ \"$group\": { \"_id\": \"$status\", \"count\": { \"$sum\": 1 } } }]"
           },
@@ -61,12 +67,6 @@
             "data": ""
           },
           "sort": {
-            "data": ""
-          },
-          "limit": {
-            "data": ""
-          },
-          "projection": {
             "data": ""
           }
         },
@@ -106,8 +106,7 @@
     "agentAllowInput": false,
     "agentDescription": "Execute the Query1 action to query the database",
     "userSetOnLoad": false,
-    "confirmBeforeExecute": false,
-    "datasourceUpdatedAt": "2026-09-22T08:46:17Z"
+    "confirmBeforeExecute": false
   },
   "id": "Vendor Master_statusCounts",
   "deleted": false,

@@ -23,8 +23,8 @@
         "send": {
           "bodyType": "text/html",
           "from": "hello@rapiddata.io",
-          "to": "{{getVendorProfile.data[0].vendor_contact_email}}",
-          "subject": "Your Jewelex Vendor KYC Has Been Approved"
+          "subject": "Your Jewelex Vendor KYC Has Been Approved",
+          "to": "{{getVendorProfile.data[0].vendor_contact_email}}"
         }
       }
     },
@@ -48,8 +48,7 @@
     "agentAllowInput": false,
     "agentDescription": "Execute the Query1 action to query the database",
     "userSetOnLoad": false,
-    "confirmBeforeExecute": false,
-    "datasourceUpdatedAt": "2026-09-23T07:34:02Z"
+    "confirmBeforeExecute": false
   },
   "id": "Vendor Master View_approveEmail",
   "deleted": false,

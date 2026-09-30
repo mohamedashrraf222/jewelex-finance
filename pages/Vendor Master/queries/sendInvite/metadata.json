@@ -23,8 +23,8 @@
         "send": {
           "bodyType": "text/html",
           "from": "hello@rapiddata.io",
-          "to": "{{vendorMasterWidget.model.newInvite.vendorEmail}}",
-          "subject": "Action Required: Complete Your Vendor KYC – Jewelex Group"
+          "subject": "Action Required: Complete Your Vendor KYC – Jewelex Group",
+          "to": "{{vendorMasterWidget.model.newInvite.vendorEmail}}"
         }
       }
     },
@@ -47,8 +47,7 @@
     "agentAllowInput": false,
     "agentDescription": "Execute the Query1 action to query the database",
     "userSetOnLoad": false,
-    "confirmBeforeExecute": false,
-    "datasourceUpdatedAt": "2026-09-22T10:33:49Z"
+    "confirmBeforeExecute": false
   },
   "id": "Vendor Master_sendInvite",
   "deleted": false,

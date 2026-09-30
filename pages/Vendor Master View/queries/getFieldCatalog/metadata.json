@@ -19,10 +19,10 @@
       "selfReferencingDataPaths": [],
       "formData": {
         "aggregate": {
-          "limit": {
+          "arrayPipelines": {
             "data": ""
           },
-          "arrayPipelines": {
+          "limit": {
             "data": ""
           }
         },
@@ -49,27 +49,27 @@
           }
         },
         "distinct": {
-          "query": {
+          "key": {
             "data": ""
           },
-          "key": {
+          "query": {
             "data": ""
           }
         },
         "find": {
-          "skip": {
+          "limit": {
+            "data": ""
+          },
+          "projection": {
             "data": ""
           },
           "query": {
             "data": ""
           },
+          "skip": {
+            "data": ""
+          },
           "sort": {
-            "data": ""
-          },
-          "limit": {
-            "data": ""
-          },
-          "projection": {
             "data": ""
           }
         },
@@ -109,8 +109,7 @@
     "agentAllowInput": false,
     "agentDescription": "Execute the getFieldCatalog action to query the database",
     "userSetOnLoad": true,
-    "confirmBeforeExecute": false,
-    "datasourceUpdatedAt": "2026-09-15T08:46:22Z"
+    "confirmBeforeExecute": false
   },
   "id": "Vendor Master View_getFieldCatalog",
   "deleted": false,

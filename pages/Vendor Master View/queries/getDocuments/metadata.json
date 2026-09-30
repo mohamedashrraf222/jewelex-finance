@@ -36,27 +36,14 @@
           }
         },
         "list": {
-          "prefix": {
-            "data": ""
-          },
-          "where": {
-            "data": {
-              "condition": "AND",
-              "children": [
-                {
-                  "condition": "EQ"
-                }
-              ]
-            }
-          },
-          "signedUrl": {
-            "data": "NO"
-          },
           "expiry": {
             "data": "5"
           },
-          "unSignedUrl": {
-            "data": "YES"
+          "prefix": {
+            "data": ""
+          },
+          "signedUrl": {
+            "data": "NO"
           },
           "sortBy": {
             "data": [
@@ -65,6 +52,19 @@
                 "order": "Ascending"
               }
             ]
+          },
+          "unSignedUrl": {
+            "data": "YES"
+          },
+          "where": {
+            "data": {
+              "children": [
+                {
+                  "condition": "EQ"
+                }
+              ],
+              "condition": "AND"
+            }
           }
         },
         "path": {
@@ -95,8 +95,7 @@
     "agentAllowInput": false,
     "agentDescription": "Execute the Query2 action to query the database",
     "userSetOnLoad": false,
-    "confirmBeforeExecute": false,
-    "datasourceUpdatedAt": "2026-09-16T13:09:22Z"
+    "confirmBeforeExecute": false
   },
   "id": "Vendor Master View_getDocuments",
   "deleted": false,
