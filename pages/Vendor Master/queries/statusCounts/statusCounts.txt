@@ -1,0 +1,5 @@
+{
+  "aggregate": "kyc_cases",
+  "pipeline": [{ "$group": { "_id": "$status", "count": { "$sum": 1 } } }],
+  "cursor": {}
+}

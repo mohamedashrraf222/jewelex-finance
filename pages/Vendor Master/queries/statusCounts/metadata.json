@@ -16,6 +16,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
+      "body": "{\n  \"aggregate\": \"kyc_cases\",\n  \"pipeline\": [{ \"$group\": { \"_id\": \"$status\", \"count\": { \"$sum\": 1 } } }],\n  \"cursor\": {}\n}\n",
       "selfReferencingDataPaths": [],
       "formData": {
         "aggregate": {
@@ -106,7 +107,8 @@
     "agentAllowInput": false,
     "agentDescription": "Execute the Query1 action to query the database",
     "userSetOnLoad": false,
-    "confirmBeforeExecute": false
+    "confirmBeforeExecute": false,
+    "datasourceUpdatedAt": "2026-09-30T23:47:05Z"
   },
   "id": "Vendor Master_statusCounts",
   "deleted": false,
